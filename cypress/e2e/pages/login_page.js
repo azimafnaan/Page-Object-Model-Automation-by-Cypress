@@ -1,10 +1,10 @@
 export class LoginPage {
 
-    enterUsername (username) {
-        cy.get('[name="username"]').type(username)
+    enterUsername (userId) {
+        cy.get('[name="username"]').type(userId)
     }
-    enterPassword (password) {
-        cy.get('[name="password"]').type(password)
+    enterPassword (userPassword) {
+        cy.get('[name="password"]').type(userPassword)
     }
     clickLogin () {
         cy.get('.oxd-button').click()

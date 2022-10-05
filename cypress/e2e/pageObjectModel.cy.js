@@ -8,7 +8,7 @@ it('Page Object Model', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 
     loginPage.enterUsername('Admin')
-    loginPage.enterPassword('Admin123')
+    loginPage.enterPassword('admin123')
     loginPage.clickLogin()
 
     // cy.get('[name="username"]').type('Admin')
